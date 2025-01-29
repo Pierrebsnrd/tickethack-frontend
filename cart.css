@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #4ea891;
+}
+
 button {
     appearance: none;
     border: none;
