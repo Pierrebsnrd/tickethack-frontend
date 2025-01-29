@@ -49,9 +49,9 @@ body {
 
 #header-right{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 13%;
+    justify-content: right;
+
+    gap: 1rem;
 }
 
 .logo-text {
