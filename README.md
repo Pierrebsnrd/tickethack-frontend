@@ -4,6 +4,28 @@ Une application web pour la réservation de billets de train, développée en co
 
 **Projet d'apprentissage réalisé dans le cadre de ma formation à La Capsule.**
 
+## 📋 Table des matières
+
+- [🚀 Fonctionnalités](#-fonctionnalités)
+- [📁 Structure du projet](#-structure-du-projet)
+- [🛠️ Technologies utilisées](#️-technologies-utilisées)
+- [🎨 Design](#-design)
+- [🚦 Installation et utilisation](#-installation-et-utilisation)
+  - [Prérequis](#prérequis)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+- [📱 Pages de l'application](#-pages-de-lapplication)
+  - [Page d'accueil (index.html)](#page-daccueil-indexhtml)
+  - [Page panier (cart.html)](#page-panier-carthtml)
+  - [Page réservations (bookings.html)](#page-réservations-bookingshtml)
+- [🔄 Flux utilisateur](#-flux-utilisateur)
+- [🎯 Fonctionnalités JavaScript](#-fonctionnalités-javascript)
+  - [Gestion de l'état](#gestion-de-létat)
+  - [API Calls](#api-calls)
+  - [Validation](#validation)
+- [🌐 Compatibilité navigateurs](#-compatibilité-navigateurs)
+- [🚀 Déploiement](#-déploiement)
+
 ## 🚀 Fonctionnalités
 
 - **Recherche de trajets** : Formulaire de recherche avec ville de départ, d'arrivée et date
@@ -48,7 +70,6 @@ tickethack-frontend/
 - Navigateur moderne
 
 ### Installation
-
 ```bash
 # Cloner le repository
 git clone [url-du-repo]
@@ -56,12 +77,12 @@ cd tickethack-frontend
 
 # Lancer un serveur local
 npx http-server .
+
 # Ou utiliser Live Server dans VS Code
 ```
 
 ### Configuration
 Pour le développement local, modifier l'URL du backend dans les fichiers JavaScript :
-
 ```javascript
 // Dans script.js, cart.js, bookings.js
 const MYURL = 'http://localhost:3000';
